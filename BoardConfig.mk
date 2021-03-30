@@ -56,6 +56,9 @@ DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/config/hidl/vendor.xiaomi.hardware.misys@
 DEVICE_MATRIX_FILE := $(DEVICE_PATH)/config/hidl/compatibility_matrix.xml
 DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE := $(DEVICE_PATH)/config/hidl/framework_compatibility_matrix.xml
 
+# Filesystem
+TARGET_FS_CONFIG_GEN := $(DEVICE_PATH)/config.fs
+
 # Init
 TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_mojito
 TARGET_RECOVERY_DEVICE_MODULES := libinit_mojito
